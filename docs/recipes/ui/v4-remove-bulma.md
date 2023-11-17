@@ -6,11 +6,10 @@
 
 1. Optional: If using Paket ensure `Fable.Core` is set to a specified version.
 
-    In `paket.dependencies`, make sure there is a line like so: `Fable.Core ~> 3`
+    In `paket.dependencies`, make sure there is a line like so: `Fable.Core ~> <something>`
     
     !!! warning
-        SAFE is not yet compatible with newer versions of `Fable.Core`.  
-        In the past, the version was not pinned so it was possible to accidentally upgrade to an incompatible version.
+        Prior to SAFE v4.3.0, `Fable.Core` was not pinned. By default it was possible to accidentally upgrade to an incompatible version.
     
     !!! info
         To avoid specifying a version when **adding** a dependency - if it is not already pinned to a specific version - you can use the  `--keep-major` flag to make the upgrade more conservative.

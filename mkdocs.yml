@@ -126,6 +126,10 @@ nav:
 - Events: 'events.md'
 - Support: 'support.md'
 - Testimonials: 'testimonials.md'
+- Legacy SAFE Template (v4):
+  - V4 recipes:
+    - UI:
+      - Remove Bulma: 'recipes/ui/v4-remove-bulma.md'
 - Legacy SAFE Template (v2):
     - The FAKE script: 'legacy-template-fake.md'
     - V2 recipes:
